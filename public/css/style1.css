@@ -1,0 +1,349 @@
+#heading1{
+    text-align: center;
+    border: 0 solid #1F2124;
+}
+#heading1>h1{
+    color: #F6732B;
+    margin:1rem;
+    padding: 0.5rem;
+    /* border-radius: 10%;  */
+    display: inline-block;
+    border: 2px solid #F6732B;
+     /* box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.5);  */
+}
+
+#heading2>h2{
+    display: inline-block;
+    font-size: 25px;
+
+}
+.clearfix::after{
+    display: block;
+    content: ' ';
+    clear: both;
+}
+body{
+    background: url(img/bg.png);
+}
+.slider{
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.container{
+    width: 100%;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+#brand img{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    vertical-align: center;
+}
+#brand{
+margin-right: 3rem;
+}
+.cardf{
+    float: left;
+    margin: 4rem;
+}
+.social-icon img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 20%;
+}
+.social-icon{
+    float: right;
+    margin-right: 15px;
+    margin-top: 0.3rem;
+}
+.navigationbar{
+    position: fixed !important;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+/* .active{
+    color: white;
+    border: 1px solid #1F2124;
+    border-radius: 15%;
+    background-color: #1F2124;
+} */
+.slideshow{
+     margin-top:4.7rem;  
+}
+body{
+        background-color: white;
+}
+.main-footer{
+     background-color: #1F2124;
+    border: 0 solid #1F2124;
+    display: inline-block; 
+}
+.main-footer li{
+    color: white;
+    font-size: 14px;
+}
+.main-footer p{
+    color: #F68133;
+     text-align: center; 
+}
+.main-footer ul{
+    list-style: none;
+}
+.dbox{
+    border: 0 solid orange;
+    display: inline-block;
+    list-style: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem; 
+}
+.main-footer a{
+    color: white;
+}
+.main-footer a:hover{
+    font-style: underline;
+}
+.dbox img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 20%;
+}
+.cards{
+    margin: 1rem;
+}
+.cart a{
+    margin-right: 5px;
+    color: white;
+}
+.cart{
+    color: white;
+    border: 1px solid #1F2124;
+    border-radius: 10%;
+    background-color: #1F2124;
+    margin-right: 15px;
+}
+.cart img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.product-page{
+        margin-top:4.7rem;
+        margin-left: 2rem;
+        vertical-align: center;
+}
+.about{
+     margin-top:4.7rem;
+}
+.grow{
+     text-align: center;
+     margin-bottom: 3rem;
+}
+.card{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.mainf{
+     margin-top:4.7rem;
+      
+}
+.pagef{
+    background-color:RGBA(31, 33, 36, 0.7);
+}
+.contactform{
+    color: white;
+    background-color: RGBA(31, 33, 36, 0.7);
+    display: inline-block;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 30px;
+}
+.contactform input{
+     margin: 1rem; 
+     border: 1px solid black;
+     padding: 10px;
+     text-align: center 
+}
+.contactform select{
+    margin: 10px;
+}
+.contactform button{
+    margin: 10px;
+}
+.contactform textarea{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+}
+.button{
+    border: 1px solid #F6732B;
+    background-color: #F6732B;
+}
+.button:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
+.basicinfo{
+    margin-top: 3rem;
+    background-color: RGBA(31, 33, 36, 0.7);
+    color: white;
+    padding: 30px;
+}
+.basicinfo a{
+    text-decoration: underline;
+    color: white;
+    display: block;
+}
+.basicinfo a:hover{
+    color: #F6732B;
+}
+.map{
+    margin-left: 0;
+}
+.btno{
+    background-color: orange;
+    border: 1px solid orange;   
+}
+.btno:hover{
+    background-color: #F6732B;
+    border: 1px solid #F6732B;
+    
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    display: inline-block;
+    border: 1px dotted #1F2124;
+}
+.head p{
+    display: inline-block;    
+}
+.info{
+    text-align: center;
+}
+.screens>h3{
+    text-align: center;
+}
+.screens img{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.trailer h4{
+    text-align: center;
+}
+.cartinfo input{
+    margin: 10px;
+
+}
+.cartinfo fieldset{
+    border: 1px solid #1F2124;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.loginp{
+    margin: 10px;
+}
+.loginp input{
+    margin: 10px;
+    padding: 10px;
+}
+.loginp a{
+    margin-top: 8px;
+}
+.loginp fieldset{
+    border: 1px solid black;
+    padding: 30px;
+}
+.logini{
+    display: inline-block;
+}
+.logini img{
+    width: 100%;
+}
+.signup h2{
+    text-align: center;
+}
+.signup input{
+    margin: 10px;
+}
+.signup fieldset{
+    border: 1px solid #1F2124;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-right: 0 solid white;
+    border-top: 0 solid white;
+}
+.signup img{
+    width: 100%;
+}
+.white{
+    color:white;
+}
+.small-space{
+    margin: 10px;
+}
+.travely-icon{
+    margin-right: 3rem;
+}
+.travely-icon img{
+
+     margin: 0;
+    width: 36px;
+    height: 36px;
+    vertical-align: center;
+    
+}
+       .login-page {
+  width: 560px;
+  padding: 8% 0 0;
+  margin-left:10%;
+}
+.form {
+  position: relative;
+  z-index: 1;
+
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form input[type="submit"] {
+    outline: none;
+    padding: 0.9em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: #0b4379;
+    box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
+    border-radius: 22px;
+}

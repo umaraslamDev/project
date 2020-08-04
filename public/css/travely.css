@@ -1,0 +1,148 @@
+
+/* Form */
+ *{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url('/img/p3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh!important;
+}
+
+
+ul{
+    margin-bottom: 20px;
+}
+ul a{
+     
+    font-size: 29px;
+    color: black;
+}
+ul a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.home{
+    height:100vh!important;
+}
+.innercontainer{
+    margin-top:0px;
+    min-height:100%;
+}
+.title{
+    color:#f9be37;
+}
+.forgothover:hover{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.align-items-center{
+    -webkit-box-align: center!important;
+}
+.home .box-shadow{
+    box-shadow: 1px -1px 50px 10px;
+}
+
+.home .box-shadow .web-name{
+    color:#f9be37;
+}
+
+.signin{
+    border-bottom:2px solid #f9be37; 
+    padding:10px;
+}
+
+.white{
+    color:white;
+}
+.box{
+
+ 
+    padding: 23px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.box form .s-login{
+    color:#fff;
+}
+
+.inner:hover{
+    color:#f9be37;
+}
+.inner{
+    color:#f9be37;
+}
+.box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.box .inputBox{
+    position: relative;
+}
+.box .inputBox input{
+ 
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background: transparent;
+}
+
+
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top:-15px;
+    color: #f9be37;
+    font-size: 15px;
+}
+
+
+.box input[type="submit"]{
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    background: #f9be37;
+    padding: 10px 20px;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: white !important;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+/* Slider */
+ 
+  .slider{
+    overflow:hidden;
+}
+.slider .fig{
+    margin:0;
+    left:0;
+    position: relative;
+    width:100%;
+    animation: 8s slider infinite;
+} 
+.slider .fig img{
+    float:left;
+    width:20%;
+} 
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    
+   20%{
+       left:0;
+   }
+    30%{
+        left:-50%;
+    }
+  
+    70%{
+        left:-100%;
+    }
+    
+    90%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+
+}
